@@ -2,6 +2,7 @@ import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
 import { LatestInvoice } from '@/app/lib/definitions';
+import React from 'react';
 export default async function LatestInvoices({
   latestInvoices,
 }: {
